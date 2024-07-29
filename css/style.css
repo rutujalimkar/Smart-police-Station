@@ -1,0 +1,84 @@
+body{
+	/*background: #060606;*/
+	background-image: url('../img/hacker-3480124_1920.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.user_box{
+	color: #00E5E5;
+}
+.user_div{
+	margin-top: 10%;
+	margin-left: 10%;
+}
+.access_denied_div{
+	display: none;
+
+}
+.access_denied{
+	width: 290px;
+	height: 60px;
+	border: 4px solid red;	
+	line-height: 16px;
+	text-align: center;
+	border-radius: 5px;
+	animation: blinker 1s linear infinite;
+	color: #FF0000;
+	font-weight: bold;
+	margin-top: -20%;
+}
+
+@keyframes blinker {
+  50% {
+    background-color:#F1281E;
+  }
+}
+.access_granted_div{
+	display: none;
+}
+.access_granted{
+	width: 290px;
+	height: 60px;
+	border: 4px solid #0B750B;	
+	line-height: 16px;
+	text-align: center;
+	border-radius: 5px;
+	animation: da 1s linear infinite;
+	color: #0BF00B;
+	font-weight: bold;
+	margin-top: -20%;
+
+}
+
+@keyframes da {
+  50% {
+    background-color:green;
+  }
+}
+
+.username{
+	border-radius: 5px;
+	width: 200px;
+	height:25px;
+	padding-left: 10px;
+}
+.password{
+	border-radius: 5px;
+	width: 200px;
+	height:25px;
+	padding-left: 10px;
+}
+.con_password{
+	border-radius: 5px;
+	width: 200px;
+	height:25px;
+	padding-left: 10px;
+}
+.submit_btn{
+	width: 215px;
+	height: 30px;
+	border-radius: 5px;
+	margin-top: 5px;
+
+}
